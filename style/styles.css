@@ -22,7 +22,7 @@ body {
 .keybord {
     display: grid;
     grid-template-columns: repeat(6, 60px);
-    grid-template-rows: 60px 60px 60px 60px 60px 60px ;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px;
     gap: 10px;
 }
 
@@ -39,7 +39,7 @@ body {
     height: 5em;
     text-align: end;
     border-radius: 16%;
-    background-color:palegreen;
+    background-color: palegreen;
     padding: 0;
     margin: 0;
 }
