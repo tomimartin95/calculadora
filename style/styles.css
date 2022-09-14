@@ -31,7 +31,7 @@ body {
 }
 
 .result {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .result>input {
@@ -39,6 +39,9 @@ body {
     height: 5em;
     text-align: end;
     border-radius: 16%;
+    background-color:palegreen;
+    padding: 0;
+    margin: 0;
 }
 
 .igual {
