@@ -1,0 +1,46 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/white-concrete-wall_53876-92803.jpg);
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 3.5em;
+    border-radius: 10%;
+    background-image: url(./img/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg);
+}
+
+.keybord {
+    display: grid;
+    grid-template-columns: repeat(6, 60px);
+    grid-template-rows: 60px 60px 60px 60px 60px 60px ;
+    gap: 10px;
+}
+
+.keybord>button {
+    font-size: larger;
+}
+
+.result {
+    margin-bottom: 2em;
+}
+
+.result>input {
+    width: 30em;
+    height: 5em;
+    text-align: end;
+    border-radius: 16%;
+}
+
+.igual {
+    height: 130px;
+}
