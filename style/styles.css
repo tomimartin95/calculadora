@@ -48,4 +48,9 @@ body {
 
 .igual {
     height: 130px;
+    background-color: lightgoldenrodyellow;
+}
+
+.numeros {
+    background-color:lightsalmon;
 }
