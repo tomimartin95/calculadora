@@ -48,9 +48,19 @@ body {
 
 .igual {
     height: 130px;
-    background-color:lightsalmon;
+    background-color: lightsalmon;
+    font-weight: bold;
 }
 
 .numeros {
     background-color: lightgoldenrodyellow;
+    font-weight: bold;
+}
+
+.ac-boton {
+    background-color: lightcoral;
+}
+
+.funcionesBasicas {
+    background-color: lightsteelblue;
 }
