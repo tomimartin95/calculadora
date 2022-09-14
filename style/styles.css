@@ -28,6 +28,7 @@ body {
 
 .keybord>button {
     font-size: larger;
+    border-radius: 25%;
 }
 
 .result {
