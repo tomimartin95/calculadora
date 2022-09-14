@@ -17,6 +17,7 @@ body {
     padding: 3.5em;
     border-radius: 10%;
     background-image: url(./img/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg);
+    box-shadow: 8px 15px 30px 15px grey;
 }
 
 .keybord {
