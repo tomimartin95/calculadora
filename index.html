@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="./style/styles.css">
+    <link rel="shortcut icon" href="./style/favicon/icons8-calculadora-16.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/089bb77d5e.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,44 +17,44 @@
 
 <body>
     <div class="calculator">
-        <div class="result">
-            <input type="text">
+        <div class="display">
+            <p id="resultado"></p>
         </div>
         <div class="keybord">
-            <button>(</button>
-            <button>)</button>
-            <button>x!</button>
-            <button>x²</button>
-            <button>√</button>
-            <button>√n</button>
-            <button>sin</button>
-            <button>cos</button>
-            <button>tag</button>
-            <button>x³</button>
-            <button>³√</button>
-            <button>xn</button>
+            <button id="abreParentesis">(</button>
+            <button id="cierraParentesis">)</button>
+            <button id="x-1">x!</button>
+            <button id="x-2">x²</button>
+            <button id="raiz">√</button>
+            <button id="raizNum">√n</button>
+            <button id="sin">sin</button>
+            <button id="cos">cos</button>
+            <button id="tag">tag</button>
+            <button id="x-3">x³</button>
+            <button id="raiz-3">³√</button>
+            <button id="xNum">xn</button>
             <button class="numeros">7</button>
             <button class="numeros">8</button>
             <button class="numeros">9</button>
             <button class="funcionesBasicas">/</button>
-            <button>π</button>
-            <button>ln</button>
+            <button id="pi">π</button>
+            <button id="ln">ln</button>
             <button class="numeros">4</button>
             <button class="numeros">5</button>
             <button class="numeros">6</button>
             <button class="funcionesBasicas">X</button>
-            <button>log</button>
-            <button>e</button>
-            <button class="numeros">1</button>
-            <button class="numeros">2</button>
-            <button class="numeros">3</button>
+            <button id="log">log</button>
+            <button id="e">e</button>
+            <button class="numeros" id="num1">1</button>
+            <button class="numeros" id="num2">2</button>
+            <button class="numeros" id="num3">3</button>
             <button class="funcionesBasicas">-</button>
-            <button>MR</button>
+            <button id="memoria">MR</button>
             <button class="igual">=</button>
-            <button>.</button>
+            <button id="punto">.</button>
             <button class="numeros">0</button>
-            <button>%</button>
-            <button class="funcionesBasicas">+</button>
+            <button id="porcentaje">%</button>
+            <button class="funcionesBasicas" id="suma">+</button>
             <button class="ac-boton">AC</button>
         </div>
     </div>

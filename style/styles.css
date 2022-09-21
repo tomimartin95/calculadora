@@ -32,18 +32,14 @@ body {
     border-radius: 25%;
 }
 
-.result {
-    margin-bottom: 3em;
-}
-
-.result>input {
-    width: 30em;
+.display {
+    width: 25em;
     height: 5em;
     text-align: end;
     border-radius: 16%;
     background-color: palegreen;
     padding: 0;
-    margin: 0;
+    margin-bottom: 3em;
 }
 
 .igual {
