@@ -35,6 +35,13 @@ table {
     box-shadow: 8px 15px 30px 15px grey;
 }
 
+#displayBox {
+    text-align: end;
+    background-color: palegreen;
+    padding: 0;
+    width: 11.5em;
+}
+
 .displaytable {
     display: table;
 }
@@ -51,34 +58,26 @@ table {
     margin: 0.1em;
 }
 
-.blackbutton {
-    background-color: black;
-    color: white;
+.cianButton {
+    background-color: rgb(103, 213, 208);
 }
 
-.greenbutton {
-    background-color: #91ff7d;
+.purpleButton {
+    background-color: rgb(180, 148, 198);
 }
 
-.greybutton {
-    background-color: #cccccc;
+.brownButton {
+    background-color: #b88e79;
 }
 
-.bluebutton {
-    background-color: #6288f3;
+.yellowButton {
+    background-color: rgb(243, 243, 171);
 }
 
 .orangeButton {
-    background-color: lightsalmon;
+    background-color: rgb(240, 142, 56);
 }
 
 .redButton {
-    background-color: #f76767;
-}
-
-#displayBox {
-    text-align: end;
-    background-color: palegreen;
-    padding: 0;
-    width: 11.5em;
+    background-color: #cd4a4a;
 }

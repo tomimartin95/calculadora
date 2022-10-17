@@ -55,9 +55,9 @@ representan tal cual su funcion en los estilos._
 * .displaytable {}
 * .displaytable-cell {}
 * .button {}
-* .blackbutton {}
-* .greenbutton {}
-* .greybutton {}
-* .bluebutton {}
+* .cianButton {}
+* .purpleButton {}
+* .brownButton {}
+* .yellowButton {}
 * .orangeButton {}
 
