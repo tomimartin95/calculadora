@@ -16,6 +16,10 @@ main {
     align-items: center;
 }
 
+footer {
+    margin-top: 5em;
+}
+
 input {
     text-align: right;
     background-color: white;
