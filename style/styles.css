@@ -1,6 +1,19 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/white-concrete-wall_53876-92803.jpg);
+}
+
 main {
-    margin: 10px;
-    padding: 5px 7px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 input {
@@ -13,10 +26,13 @@ input {
 }
 
 table {
-    display: inline-block;
-    padding: 20px;
-    background-color: grey;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 2.5em;
+    border-radius: 10%;
+    background-image: url(./img/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg);
+    box-shadow: 8px 15px 30px 15px grey;
 }
 
 .displaytable {
@@ -31,7 +47,8 @@ table {
     width: 60px;
     height: 35px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 6px;
+    margin: 0.1em;
 }
 
 .blackbutton {
@@ -51,6 +68,17 @@ table {
     background-color: #6288f3;
 }
 
-.redbutton {
+.orangeButton {
+    background-color: lightsalmon;
+}
+
+.redButton {
     background-color: #f76767;
+}
+
+#displayBox {
+    text-align: end;
+    background-color: palegreen;
+    padding: 0;
+    width: 11.5em;
 }
